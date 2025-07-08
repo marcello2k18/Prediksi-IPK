@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #87CEEB, #ffffff); /* Gradient biru ke putih */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #4682b4;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+#hasilPerhitungan {
+  margin: 20px;
+  font-size: 18px;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Animasi Zoom In/Out dan Omnes Hover */
+button:hover {
+  background-color: #45a042;
+  transform: scale(1.20); /* Animasi zoom in/out dan omneshover */
+}
